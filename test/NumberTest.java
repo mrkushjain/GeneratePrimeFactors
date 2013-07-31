@@ -22,8 +22,8 @@ public class NumberTest {
     }
 
     @Test
-    public void testThreeIsNotAPrimeNumber() throws Exception {
-        assertFalse(new Number(3).isPrime());
+    public void testThreeIsAPrimeNumber() throws Exception {
+        assertTrue(new Number(3).isPrime());
     }
 
     @Test
@@ -35,12 +35,13 @@ public class NumberTest {
     public void testPrimeFactorOfOneIsEmptyArray() throws Exception {
         assertArrayEquals(new Integer[]{},new Number(1).generatePrimeFactors());
     }
-
-
     @Test
     public void testPrimeFactorOfTwoIsTwo() throws Exception {
         assertArrayEquals(new Integer[]{2},new Number(2).generatePrimeFactors());
     }
+
+
+
 
 
 }

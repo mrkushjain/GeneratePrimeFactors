@@ -31,8 +31,11 @@ public class Number {
 
     public Integer[] generatePrimeFactors() {
         ArrayList<Integer> primeFactors = new ArrayList<Integer>();
-        if(value==1)
-           return (Integer[])primeFactors.toArray();
-        return null;
+        if(value >1)
+        {
+        if(value==2)
+            primeFactors.add(2);
+        }
+        return (Integer[])primeFactors.toArray(new Integer[primeFactors.size()]);
     }
 }
