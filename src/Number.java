@@ -29,6 +29,10 @@ public class Number {
     }
 
 
-
-
+    public Integer[] generatePrimeFactors() {
+        ArrayList<Integer> primeFactors = new ArrayList<Integer>();
+        if(value==1)
+           return (Integer[])primeFactors.toArray();
+        return null;
+    }
 }

@@ -30,4 +30,17 @@ public class NumberTest {
     public void testFourIsNotAPrimeNumber() throws Exception {
         assertFalse(new Number(4).isPrime());
     }
+
+    @Test
+    public void testPrimeFactorOfOneIsEmptyArray() throws Exception {
+        assertArrayEquals(new Integer[]{},new Number(1).generatePrimeFactors());
+    }
+
+
+    @Test
+    public void testPrimeFactorOfTwoIsTwo() throws Exception {
+        assertArrayEquals(new Integer[]{2},new Number(2).generatePrimeFactors());
+    }
+
+
 }
