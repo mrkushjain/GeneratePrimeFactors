@@ -31,11 +31,9 @@ public class Number {
 
     public Integer[] generatePrimeFactors() {
         ArrayList<Integer> primeFactors = new ArrayList<Integer>();
-        if(value >1)
-        {
-        if(value==2)
-            primeFactors.add(2);
-        }
+        for(int divisor=2;divisor<=value;divisor++)
+            if(value%divisor == 0)
+                primeFactors.add(divisor);
         return (Integer[])primeFactors.toArray(new Integer[primeFactors.size()]);
     }
 }

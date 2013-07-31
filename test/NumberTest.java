@@ -39,7 +39,10 @@ public class NumberTest {
     public void testPrimeFactorOfTwoIsTwo() throws Exception {
         assertArrayEquals(new Integer[]{2},new Number(2).generatePrimeFactors());
     }
-
+    @Test
+    public void testPrimeFactorOfThreeIsThree() throws Exception {
+        assertArrayEquals(new Integer[]{3},new Number(3).generatePrimeFactors());
+    }
 
 
 
