@@ -9,11 +9,16 @@ import static org.junit.Assert.*;
  */
 public class NumberTest {
 
-    Number number = new Number();
+
 
     @Test
     public void testOneIsNotAPrimeNumber() throws Exception {
-
-          assertFalse(number.isPrime(1));
+          assertFalse(new Number(1).isPrime());
     }
+
+    @Test
+    public void testTwoIsAPrimeNumber() throws Exception {
+        assertTrue(new Number(2).isPrime());
+    }
+
 }

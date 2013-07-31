@@ -9,10 +9,15 @@ import java.util.ArrayList;
  */
 public class Number {
 
+    private int value;
 
-    public boolean isPrime(int givenNumber)
+    public Number(int value) {
+        this.value = value;
+    }
+
+    public boolean isPrime()
     {
-        if(givenNumber==1)
+        if(value==1)
             return false;
         return true;
     }
