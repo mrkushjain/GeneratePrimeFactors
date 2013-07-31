@@ -21,4 +21,8 @@ public class NumberTest {
         assertTrue(new Number(2).isPrime());
     }
 
+    @Test
+    public void testThreeIsNotAPrimeNumber() throws Exception {
+        assertFalse(new Number(3).isPrime());
+    }
 }

@@ -19,8 +19,11 @@ public class Number {
     {
         if(value==1)
             return false;
-        return true;
+        if(value==2)
+            return true;
+        return false;
     }
+
 
 
 
