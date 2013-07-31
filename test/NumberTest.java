@@ -44,7 +44,18 @@ public class NumberTest {
         assertArrayEquals(new Integer[]{3},new Number(3).generatePrimeFactors());
     }
 
+    @Test
+    public void testPrimeFactorOfFourIsTwo() throws Exception {
+        assertArrayEquals(new Integer[]{2},new Number(4).generatePrimeFactors());
+    }
 
+    @Test
+    public void testPrimeFactorOfFiveIsFive() throws Exception {
+        assertArrayEquals(new Integer[]{5},new Number(5).generatePrimeFactors());
+    }
 
-
+    @Test
+    public void testPrimeFactorOfSixIsTwoThree() throws Exception {
+        assertArrayEquals(new Integer[]{2,3},new Number(6).generatePrimeFactors());
+    }
 }
