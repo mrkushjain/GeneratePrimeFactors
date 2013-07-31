@@ -8,9 +8,9 @@
     <ignored path="GeneratePrimeFactors.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="798e4db9-1db6-43d6-a3cc-ec4a574914d4" time="1375238781727" ignored="false" />
-    <file path="/Number.java" changelist="798e4db9-1db6-43d6-a3cc-ec4a574914d4" time="1375239551765" ignored="false" />
+    <file path="/Number.java" changelist="798e4db9-1db6-43d6-a3cc-ec4a574914d4" time="1375239708632" ignored="false" />
     <file path="/fragment.java" changelist="798e4db9-1db6-43d6-a3cc-ec4a574914d4" time="1375186444279" ignored="false" />
-    <file path="/NumberTest.java" changelist="798e4db9-1db6-43d6-a3cc-ec4a574914d4" time="1375239491024" ignored="false" />
+    <file path="/NumberTest.java" changelist="798e4db9-1db6-43d6-a3cc-ec4a574914d4" time="1375239626226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="Number.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+            <state line="27" column="34" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="NumberTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/NumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="606" selection-end="606" vertical-scroll-proportion="0.6857143">
+            <state line="30" column="45" selection-start="732" selection-end="732" vertical-scroll-proportion="0.82857144">
               <folding />
             </state>
           </provider>
@@ -223,7 +223,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberTest.testThreeIsNotAPrimeNumber">
+  <component name="RunManager" selected="JUnit.NumberTest.testFourIsNotAPrimeNumber">
     <configuration default="false" name="NumberTest.testOneIsNotAPrimeNumber" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="GeneratePrimeFactors" />
@@ -278,6 +278,29 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumberTest" />
       <option name="METHOD_NAME" value="testThreeIsNotAPrimeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumberTest.testFourIsNotAPrimeNumber" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="GeneratePrimeFactors" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
+      <option name="METHOD_NAME" value="testFourIsNotAPrimeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -384,16 +407,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.NumberTest.testOneIsNotAPrimeNumber" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.NumberTest.testTwoIsAPrimeNumber" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.NumberTest.testThreeIsNotAPrimeNumber" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumberTest.testFourIsNotAPrimeNumber" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberTest.testThreeIsNotAPrimeNumber" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberTest.testTwoIsAPrimeNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NumberTest.testOneIsNotAPrimeNumber" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberTest.testFourIsNotAPrimeNumber" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberTest.testThreeIsNotAPrimeNumber" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NumberTest.testTwoIsAPrimeNumber" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NumberTest.testOneIsNotAPrimeNumber" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -536,14 +561,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+        <state line="27" column="34" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/NumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="606" selection-end="606" vertical-scroll-proportion="0.6857143">
+        <state line="30" column="45" selection-start="732" selection-end="732" vertical-scroll-proportion="0.82857144">
           <folding />
         </state>
       </provider>

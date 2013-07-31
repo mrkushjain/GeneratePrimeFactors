@@ -25,4 +25,9 @@ public class NumberTest {
     public void testThreeIsNotAPrimeNumber() throws Exception {
         assertFalse(new Number(3).isPrime());
     }
+
+    @Test
+    public void testFourIsNotAPrimeNumber() throws Exception {
+        assertFalse(new Number(4).isPrime());
+    }
 }

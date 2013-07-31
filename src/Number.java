@@ -21,7 +21,11 @@ public class Number {
             return false;
         if(value==2)
             return true;
-        return false;
+        for(int i=2;i<value;i++){
+            if(value%i==0)
+                return false;
+        }
+        return true;
     }
 
 
